@@ -1,6 +1,6 @@
 将要评价的轨迹放到`data`文件夹中
 
-评价`data`文件夹中的单个轨迹，例如 `09_pred.txt` and `10_pred.txt` :
+评价`data`文件夹中的单个轨迹，例如 `03_pred.txt` and `10_pred.txt` :
 
         python evaluation.py --result_dir=./data/ --eva_seqs=03_pred,10_pred 
 
